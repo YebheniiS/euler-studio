@@ -1,0 +1,46 @@
+Cache geometries/materials
+Make a LayeredScene class with background, foreground, mainLayer attributes
+Make scene resize vertically
+Use switch/case in DrawCanvas mouse handlers
+Use default exports with the tools
+Better selection cursor for lines
+Add numbers to gridlines
+Refactor tools based on trait pattern (e.g. compute nearestCoordinate with superclass)?
+Pass clientCoordinates to tools?
+Make point variants reactive?
+Write utilities for writing/reading attributes, transforms, and style
+Allocate vectors to store world coordinates on shapes
+Use typescript enum for tool types
+Go to shape panel after creating shape, transform panel after
+Use PointCursor instead of Point for all tools
+use Shape.attributeData within Shape.getAttribute
+Get rid of big if/else / switch/case blocks for tools
+Make invalid states unrepresentable for tools
+Handle parallel lines in intersection tool
+Attribute panels for Polygons
+Check if Shape.copy() and Shape.clone() need dispose() calls
+Make pointOnCurveDistance and pointOnCurveTotalDistance a type
+Unique labels (names) for Shapes
+Show Shape label on mouseover w/ Select tool
+Make CosmodDb configuration make sense / update the DB key that was committed
+Cache transfers Draw Mode -> Animate Mode
+Import studio code instead of using unpack()
+Add groups
+Mini options menu on select
+Get rid of getCloneAttributes, use getAttributes/fromAttributes
+Make clonable, saveable into traits (if possible)
+Select should respect shape order
+Hide tools when shape is selected
+Allow styling strokeWidth
+Clean up code x.x
+Get rid of svelte-material-icons
+
+Alternate constructions?
+  from points
+  from start, angle, and length
+  from start, angle, and length
+Angle object
+Right angle object
+Arrow object
+Length indicator object
+Scale around point tool

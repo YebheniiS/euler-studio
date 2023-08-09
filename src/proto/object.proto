@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package object;
+
+import "google/protobuf/struct.proto";
+
+message Style {
+    bool stroke = 1;
+    repeated float stroke_color = 2;
+    float stroke_opacity = 3;
+    bool fill = 4;
+    repeated float fill_color = 5;
+    float fill_opacity = 6;
+}
+
+message Transform {
+   repeated float position = 1;
+   repeated float rotation = 2;
+   float scale = 3;
+}
+
+message Object {
+    string class = 1;
+    google.protobuf.Struct attributes = 2;
+    Style style = 3;
+    Transform transform = 4;
+    repeated Object children = 5;
+}

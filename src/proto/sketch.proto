@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package sketch;
+
+import "./object.proto";
+
+message Sketch {
+    repeated Object objects = 1;
+}
